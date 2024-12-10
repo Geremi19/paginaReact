@@ -1,0 +1,144 @@
+/* Estilo para la página de Login */
+
+body {
+  height: 100%;
+  margin-top: 50px;
+  background-color: #f8f7f7; /* Un color gris claro */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; /* Cubre toda la ventana */
+  background-position: center; /* Centra la imagen */
+}
+html {
+  height: 90%;
+  margin-top: 0px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; /* Cubre toda la ventana */
+  background-position: center; /* Centra la imagen */
+}
+
+.container {
+  max-width: 400px; /* Ancho máximo del formulario */
+  margin: auto; /* Centramos el contenedor */
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 20px; /* Bordes redondeados */
+  backdrop-filter: blur(10px); /* Desenfoque del fondo detrás del contenedor */
+}
+
+.estilo-profile {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cajatexto {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px 15px 15px 45px; 
+  margin-bottom: 20px;
+  font-size: 16px;
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.cajatexto:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.btnform {
+  background-color: #007bff;
+  border: none;
+  margin-top: 10%;
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btnform:hover {
+  background-color: #0056b3;
+}
+
+.texto {
+  font-size: 16px;
+  color: #080808;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btnswitch {
+  border-radius: 30px;
+  padding: 8px 16px;
+  border: none;
+  color: #1d70c9;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 80px;
+}
+
+
+
+.padre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+} 
+
+.icon {
+  
+  position: absolute;
+  right: 26px;
+  margin-top: -20px;
+  font-size: 20px;
+  color: #888;
+}
+
+.label-text {
+  font-size: 16px;
+  color: #080808;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 20px;
+  width: 100%;
+}

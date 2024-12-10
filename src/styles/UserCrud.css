@@ -1,0 +1,70 @@
+/* Raites.css */
+
+/* Estilos generales para el contenedor del CRUD de usuarios */
+.user-crud-container {
+    margin: 20px;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Fondo suave */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Títulos de sección */
+.users-h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para el contenedor de la tabla y desplazamiento */
+.users-table-responsive {
+    max-height: 250px; /* Altura máxima para el scroll */
+    overflow-y: auto; /* Desplazamiento vertical */
+    border: 1px solid #ddd; /* Bordes suaves alrededor del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para la tabla de usuarios */
+.users-table {
+    width: 100%;
+    border-collapse: collapse; /* Colapsa bordes */
+}
+
+/* Estilos para los encabezados de la tabla */
+.users-th {
+    background-color: #4CAF50; /* Color de fondo para el encabezado */
+    color: white; /* Color de texto */
+    position: sticky; /* Permite que el encabezado se mantenga fijo */
+    top: 0; /* Fija el encabezado en la parte superior del contenedor */
+    z-index: 1; /* Asegúrate de que el encabezado esté por encima del contenido */
+}
+
+/* Estilos para celdas */
+.users-th, .users-td {
+    border: 1px solid #ddd; /* Bordes suaves */
+    padding: 8px; /* Espaciado interno reducido */
+    text-align: left; /* Alineación de texto */
+    font-size: 14px; /* Tamaño de fuente reducido para la tabla */
+}
+
+/* Fila de la tabla */
+.users-tr:hover {
+    background-color: #f1f1f1; /* Color de fondo en hover */
+}
+
+/* Estilos para el botón de eliminar */
+.delete-button {
+    background-color: #ff4d4d; /* Color rojo */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 6px 10px; /* Espaciado interno reducido */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor puntero */
+    transition: background-color 0.3s ease; /* Transición suave */
+    font-size: 12px; /* Tamaño de fuente reducido para el botón */
+}
+
+.delete-button:hover {
+    background-color: #ff1a1a; /* Color en hover */
+}

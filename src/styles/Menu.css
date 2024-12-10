@@ -1,0 +1,41 @@
+/* Encabezado */
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 60px; 
+    background-color: #ffffff; 
+    color: white; 
+    padding: 0 20px; 
+    z-index: 1000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: 'Arial', sans-serif; 
+}
+
+/* Logo de la aplicación */
+.menu-logo {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: hsl(197deg 48.15% 33.05%);
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: 1rem;
+    color: hsl(197deg 48.15% 33.05%);
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: color 0.3s ease; 
+}
+
+.menu-item:hover {
+    color: #3498db; 
+}

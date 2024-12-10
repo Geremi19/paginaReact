@@ -1,0 +1,35 @@
+.home-container {
+    display: flex;
+    flex-direction: column; /* Para que los elementos estén uno debajo del otro */
+    min-height: 100vh;
+}
+.content {
+    width: 100%;
+    flex: 1;
+    padding: 20px;
+    margin-left: 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Cambiado a column para alinear Perfil y flex-container verticalmente */
+}
+
+/* Nuevo contenedor para alinear Raites y UserCrud en fila */
+.flex-container {
+    display: flex; /* Alinea los hijos en fila */
+    justify-content: space-between; /* Espacio entre los componentes */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    margin-top: 20px; /* Espacio superior entre el perfil y los componentes */
+}
+
+/* Estilo para el componente Raites */
+.raites-container {
+    margin-top: 80px;
+    width: 90%; /* Ajusta según lo necesario */
+    margin-left: 5px; /* Espacio entre Raites y UserCrud */
+}
+
+/* Estilo para el componente UserCrud */
+.crud-container {
+    width:55%;
+    /* Añade padding y bordes si es necesario */
+}

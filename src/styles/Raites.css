@@ -1,0 +1,84 @@
+/* Contenedor general */
+.raites-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Diseño para la selección del campus */
+#campusSelect {
+    padding: 5px; /* Reducimos el padding */
+    font-size: 12px; /* Reducimos el tamaño de la fuente */
+    border-radius: 5px;
+    border: 1px solid #3498db;
+    background-color: #ffffff;
+    color: #34495e;
+    outline: none;
+    margin-bottom: 10px; /* Reducimos el margen */
+    cursor: pointer;
+}
+
+#campusSelect:hover {
+    border-color: #2980b9;
+}
+
+/* Hacer la tabla más pequeña y estilizada */
+.raites-table-responsive {
+    max-height: 250px; /* Reducimos un poco más la altura máxima de la tabla */
+    overflow-y: auto;
+    margin-bottom: 10px;
+    width: 100%; /* Reducimos el ancho de la tabla */
+}
+
+.raites-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra más pequeña */
+    background-color: #ffffff;
+}
+
+/* Encabezado de tabla fijo al hacer scroll */
+.raites-th {
+    background-color: #3498db;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 10px; /* Reducimos el padding */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    text-transform: uppercase;
+    font-size: 12px; /* Reducimos el tamaño de la fuente */
+}
+
+.raites-td {
+    padding: 8px 10px; /* Reducimos el padding */
+    border-bottom: 1px solid #ecf0f1;
+    text-align: center;
+    color: #34495e;
+    font-size: 12px; /* Reducimos el tamaño de la fuente */
+    background-color: #f9f9f9;
+}
+
+.raites-tr:nth-child(even) .raites-td {
+    background-color: #f0f8ff;
+}
+
+.raites-tr:hover .raites-td {
+    background-color: #eaf2f8;
+    cursor: pointer;
+}
+
+/* Ajustamos el tamaño del mapa para que quede debajo de la tabla */
+.map-container {
+    width: 100%; /* Reducimos el ancho */
+    height: 250px; /* Reducimos la altura del mapa */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra más pequeña */
+    margin-top: 10px;
+}
